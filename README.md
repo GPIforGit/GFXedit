@@ -45,8 +45,15 @@ Under the editor field you find some options:
 
 "Stamp" - simple draw in the map / sprite 
 
-"Box" - old down the left mouse button to draw a filled box. When you have selected more than 
-an object, it will repeat the objects as pattern.
+"Line" - draw a line
+
+"Box" - draw a box
+
+"Ellipse" - draw a ellipse
+
+"Fill" - fill (on map it is clipped by the current visible screen)
+
+"Filled Box" - a filled box
 
 "SmartBox" - a variant of box, when you select an 3x3 pattern in the sprite sheet, it will
 then draw a box in the editor, it will more "stretch" the selection to the draw box.
@@ -157,7 +164,11 @@ label as sprite sheet.
 Keyboard
 --------
 Mouse wheel - change selection of sprite (map) or color (sprite)
-0-8/ shift + 0-8 - change current (background) color
+
+ctrl + wheel - change zoom
+
+0-8/ shift + 0-8 - change current/background color
+
 Num0 - Num9 - change zoom level
 
 Cursor keys / asdw - change selected sprite (map) or color ( sprite)
@@ -173,6 +184,17 @@ ctrl + y - redo
 ctrl + c - copy/export menu
 
 ctrl + v - pate/import menu
+
+ctrl + o - open
+
+ctrl + s - merge/save
+
+alt + cursor - Sprite-editor: shift sprite
+
+alt+shift + cursor - Sprite-editor: flip sprite
+
+R - Sprite-editor: rotate sprite
+
 
 
 About the string format
